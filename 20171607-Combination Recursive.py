@@ -1,10 +1,10 @@
 n = int(input("Enter n : "))
 m = int(input("Enter m : "))
 
-while(n>=m>0):
+while(n>=m>=0):
 
     def RecursiveSum(n):
-        if n==1:
+        if n==0:
             return 1
         else:
             return RecursiveSum(n-1) * n
